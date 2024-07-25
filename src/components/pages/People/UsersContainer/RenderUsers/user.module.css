@@ -1,0 +1,53 @@
+a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+.user {
+    display: flex;
+    margin-bottom: 2%;
+    padding: 10px;
+    border: 1px solid rgba(176, 176, 176, 0.296);
+    transition: box-shadow .2s ease;
+}
+
+.user img,
+.user {
+    border-radius: 5px;
+}
+
+.user img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 14px;
+    width: 100%;
+}
+
+.user div h5 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.userInfo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.user:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.locationAndFollow {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}

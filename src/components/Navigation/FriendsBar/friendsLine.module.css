@@ -1,0 +1,27 @@
+.friendsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 0px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item img{
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 50%;
+}

@@ -1,0 +1,25 @@
+.dialogs {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.dialogs a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:rgb(69, 69, 69);
+    padding: 5px;
+}
+
+.dialogs a:hover {
+    box-shadow: inset 0px 0px 15px -3px rgba(0,0,0,0.1);
+}
+
+.dialogs a img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}

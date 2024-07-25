@@ -1,0 +1,23 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttonContainer button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+    background: rgba(213, 139, 96, 0.513);
+    color: rgb(79, 79, 79);
+    transition: box-shadow .2s ease;
+}
+
+.buttonContainer button:hover {
+    color: rgb(59, 59, 59);
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+}

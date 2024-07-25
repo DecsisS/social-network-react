@@ -1,0 +1,15 @@
+.posts-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    width: 80%;
+}
+
+.posts-block h3 {
+    margin: 0;
+}
+
+.old-posts {
+    border: none;
+}

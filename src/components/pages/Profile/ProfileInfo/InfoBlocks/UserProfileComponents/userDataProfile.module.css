@@ -1,0 +1,8 @@
+.user-data {
+    line-height: 6px;
+}
+
+.user-data div {
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+}

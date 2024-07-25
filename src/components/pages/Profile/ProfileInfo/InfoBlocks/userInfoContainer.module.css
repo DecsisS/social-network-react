@@ -1,0 +1,25 @@
+.userContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.userContainer img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-info {
+    font-size: 14px;
+}
+
+.user-info label {
+    font-weight: bold;
+    font-size: 24px;
+}

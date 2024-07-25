@@ -1,0 +1,57 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.formContainer input,
+.formContainer button {
+    width: 200px;
+    font-size: 16px;
+}
+
+
+.formContainer input {
+    background: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(143, 143, 143);
+}
+
+.formContainer input:focus {
+    outline: 1px solid rgb(178, 255, 247);
+}
+
+.formContainer button {
+    height: 30px;
+}
+
+.formContainer label,
+.formContainer span,
+.checkbox {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.checkbox input {
+    width: 20px;
+}
+
+.checkbox input:focus {
+    outline: none;
+}
+
+.formContainer i {
+    font-size: 12px;
+    color: rgb(255, 77, 77);
+}
+
+.formContainer img {
+    padding: 0;
+}

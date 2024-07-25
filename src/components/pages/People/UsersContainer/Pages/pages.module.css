@@ -1,0 +1,16 @@
+.pages button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.pages {
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 18px;
+}
