@@ -8,7 +8,7 @@ To fully use the application you must register on [this page]().
 
 Or use this test account: 
 
-Login: test
+Login: test </br>
 Password: 1234567890
 
 ## Powered by React.js
